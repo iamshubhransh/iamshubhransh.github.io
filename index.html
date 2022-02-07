@@ -1,205 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="app.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <title>Shubhransh Bhaskar &mdash; Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="/favi.ico">
-</head>
-<body>
-
-<div class="smooth-scroll-wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Shubhransh Bhaskar</title>
+  </head>
+  <body>
+    <div class="div">
+      <!-- Hero Section Starts -->
       <section class="content">
-  <!--Navbar-->
-  <nav id="navbar">
-    <h1 class="logo">
-      <span class="logo-primary-mob">IAMSHUBHRANSH</span>
-      <span class="logo-primary">IAM</span>SHUBHRANSH
-      <span class="logo-tertiary"> BHASKAR</span>
-    </h1>
-    <ul>
-      <li><a href="#work" id="work1">Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+        <!-- NavBar -->
+        <nav>
+          <input id="nav-toggle" type="checkbox" />
+          <a href="#"
+            ><div class="logo">IAM<strong>SHUBHRANSH</strong></div></a
+          >
+          <!-- Left Navbar name -->
 
-  <!--First Screen-->
-  <header id="showcase">
-    <div class="showcase-content">
-      <div class="video-container">
-        <video autoplay loop muted>
-          <source src="gradient.mp4" type="video/mp4">
-        </video>
-      <h1 class="text-primary video-text">Hello, iamshubhransh</h1>
-      </div>
-      <p class="coding-font">// Product Designer & Front-End Developer</p>
-      <p class="intro">Enthusiastic designer & developer, always eager to contribute towards team success through hard work, attention to detail with a bunch of other special skills.</p>
+          <ul class="links">
+            <!-- Right Navbar Links -->
+            <li><a href="#resume" class="link">Resume</a></li>
+            <li><a href="#work" class="link1">Work</a></li>
+            <li><a href="#about" class="link2">About</a></li>
+            <li><a href="#contact" class="link3">Contact</a></li>
+          </ul>
+          <!-- Hamburger -->
+          <label for="nav-toggle" class="icon-burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </label>
+        </nav>
+        <!-- Heading -->
+        <h1 class="namaste heading">नमस्ते</h1>
+        <!-- Name -->
+        <h2 class="name">I'm <span>Shubhransh Bhaskar</span></h2>
+        <!-- Short Intro -->
+        <p class="short-intro">
+          Enthusiastic designer & developer, always eager to contribute towards
+          team success through hard work, attention to detail with a bunch of
+          other special skills.
+        </p>
+        <!-- Dark Mode Button -->
+        <button class="dark-mode-toggle">
+          <i class="fas fa-lightbulb sun-1"></i>
+        </button>
+        <span class="vertical-line"><!-- Line --></span>
+      </section>
+      <!-- Hero Section Ends -->
+      <!-- Work Section Starts -->
+      <section class="work" id="work">
+        <!-- Heading -->
+        <h1 class="heading">Work</h1>
+        <span class="vertical-line white1"><!-- Line --></span>
+        <!-- Cards Container -->
+        <div class="card-container">
+          <!-- Modal Images -->
+          <img
+            id="myImg1"
+            src="./assets/TNC360.png"
+            alt="TNC360"
+            class="yellowbs"
+            style="width: 100%; max-width: 350px"
+          />
+          <img
+            id="myImg2"
+            src="./assets/JSS.png"
+            alt="JSS"
+            class="skinbs"
+            style="width: 100%; max-width: 350px"
+          />
+          <img
+            id="myImg3"
+            src="./assets/GDSC.png"
+            alt="GDSC"
+            class="bluebs"
+            style="width: 100%; max-width: 350px"
+          />
+          <img
+            id="myImg4"
+            src="./assets/EventO.png"
+            alt="EventO"
+            class="yellowbs"
+            style="width: 100%; max-width: 350px"
+          />
+        </div>
 
-      <a class="location" target="_blank" href="https://goo.gl/maps/wBscF9MpXXfmCvDJ9">Agra, Uttar Pradesh</a>
-      <div class="links">
-      <a class="main-btn1" target="_blank" href="https://www.behance.net/iamshubhransh">Behance</a>
-      <a class="main-btn2" target="_blank" href="https://github.com/iamshubhransh/">GitHub</a>
-    </br>
-      <a class="main-btn3" target="_blank" href="https://www.instagram.com/iamshubhransh/">Instagram</a>
-      <a class="main-btn4" target="_blank" href="https://twitter.com/iamshubhransh">Twitter</a>
-      <a class="main-btn5" target="_blank" href="https://www.linkedin.com/in/iamshubhransh/">LinkedIn</a>
+        <!--TNC360  Modal -->
+        <div id="myModal1" class="modal">
+          <!-- Modal Content -->
+          <div class="modal-content">
+            <!-- close button -->
+            <span class="close close1">&times;</span>
+            <div class="img">
+              <!-- Banner -->
+              <img
+                src="./assets/TNC360-modal-banner.png"
+                alt="TNC360-modal-banner"
+              />
+            </div>
+            <div class="text-content">
+              <!-- below Banner Text -->
+              <div class="text">TNC360</div>
+              <!-- Heading -->
+              <h1 class="heading">
+                Redesigning fitness app TNC360 and helping them launch the app
+                in market.
+              </h1>
+              <div class="description">
+                <!-- Description -->
+                <p>
+                  TNC360 is a Hyderabad based startup primarily focused on
+                  fitness and creating a fitness app that comprises outstanding
+                  features to enable the coaches and fitness enthusiasts to
+                  create a universe of personal help, advice, training programs,
+                  and accountability to achieve the target results.<br /><br />
+                  As a UI/UX Design Development Intern at TNC360, I built the
+                  TNC360 design system and redesigned the Android/iOS app to
+                  help them launch the app in market.
+                </p>
+                <span>
+                  <h2 class="sub-heading">Redesigning the app</h2>
+                  The initial design of the app was very old and it lacked
+                  certain modern elements to attract the users hence a redesign
+                  was much required.<br /><br />
+                  Focusing on the two primary colors on which the whole design
+                  was made, I orchestrated and redesigned the app which would be
+                  much more suitable to the young fitness enthusiasts while
+                  making sure that it doesn't complicate things for other age
+                  groups.
+                </span>
+              </div>
+            </div>
+            <div class="img w-80">
+              <img
+                src="./assets/TNC360-modal-content1.png"
+                alt="TNC360-modal-content1"
+              />
+            </div>
+            <div class="text-content">
+              <div class="description">
+                <span>
+                  <h2 class="sub-heading">Building a design system</h2>
+                  The redesign of the application required a new design system
+                  to be built and maintained which can help other team members
+                  develop new features.
+                  <br /><br />
+                  Therefore I stored all the required components in such a way
+                  that most of the elements can be reused while building a new
+                  screen or feature for the application without having to build
+                  from scratch.
+                </span>
+              </div>
+            </div>
+            <div class="img w-80">
+              <img
+                src="./assets/TNC360-modal-content2.png"
+                alt="TNC360-modal-content2"
+              />
+            </div>
+          </div>
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
+        <!-- JSS Modal -->
+        <div id="myModal2" class="modal">
+          <!-- Modal Content  -->
+          <div class="modal-content">
+            <!-- The Close Button -->
+            <span class="close close2">&times;</span>
+            <div class="img">
+              <img
+                src="./assets/JSS-modal-banner.png"
+                alt="JSS JSS-modal-banner"
+              />
+            </div>
+            <div class="text-content">
+              <div class="text">JSS Photography Club</div>
+              <h1 class="heading">
+                Website design for the Photography Club of JSS Academy of
+                Technical Education
+              </h1>
+              <div class="description">
+                <p>
+                  JSS Photography Club is the official photography and media
+                  management club of JSSATEN, Noida. It comprises of
+                  photographers, videographers, designers and managers to handle
+                  all the media and photography related work inside the college.
+                  <br /><br />
+                  As part of the same club, we designed a website to showcase
+                  our work and some information about the team
+                </p>
+                <span>
+                  <h2 class="sub-heading">Building the design system</h2>
+                  Designing a website requires a certain design system to be
+                  built so that it’s easier to create new design elements
+                  without having to start from scratch.<br /><br />
+                  Therefore a design system was made for the website of JSS
+                  Photography Club.
+                </span>
+              </div>
+            </div>
+            <div class="img w-80">
+              <img
+                src="./assets/JSS-modal-content.png"
+                alt="JSS-modal-content"
+              />
+            </div>
+          </div>
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
+        <!-- GDSC Modal -->
+        <div id="myModal3" class="modal">
+          <!-- Modal Content -->
+          <div class="modal-content">
+            <!-- Close Button -->
+            <span class="close close3">&times;</span>
+            <div class="img">
+              <img
+                src="./assets/GDSC-modal-banner.png"
+                alt="GDSC-modal-banner"
+              />
+            </div>
+            <div class="text-content">
+              <div class="text">Google Developer Student Clubs</div>
+              <h1 class="heading">
+                Focusing on growing together as a community and making people
+                aware of the design culture
+              </h1>
+              <div class="description">
+                <p>
+                  Google Developer Student Clubs (GDSC) are community groups for
+                  college and university students interested in Google developer
+                  technologies. Students from all undergraduate or graduate
+                  programs with an interest in growing as a developer are
+                  welcome.
+                  <br /><br />
+                  As a part of GDSC JSSATEN, I designed various applications,
+                  websites and worked on numerous projects as a designer as well
+                  as a developer with a creative mindset and focused on making
+                  people aware of design in our college. I also hosted numerous
+                  sessions to talk design so that we as designers can share our
+                  knowledge and thought process with other students as well.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
+        <!-- Event0 Modal -->
+        <div id="myModal4" class="modal">
+          <!-- Modal COntent -->
+          <div class="modal-content">
+            <!-- Close Button -->
+            <span class="close close4">&times;</span>
+            <div class="img">
+              <img
+                src="./assets/Evnt0-modal-banner.png"
+                alt="Evnt0-modal-banner"
+              />
+            </div>
+            <div class="text-content">
+              <div class="text">EventO - Event Manager App</div>
+              <h1 class="heading">
+                Building an Event Manager App to solve problems of keeping track
+                of numerous events in an organization
+              </h1>
+              <div class="description">
+                <p>
+                  EventO is an event manager app where users can list, manage &
+                  participate in numerous events being conducted in an
+                  organization. It’s very easier to use and solves the problem
+                  of keeping track of numerous events.
+                </p>
+                <span>
+                  <h2 class="sub-heading">Problem statement</h2>
+                  There is an annual college fest ‘Zealicon’ which runs for
+                  approximately 3-4 days. In that annual fest, numerous events
+                  are taking place everyday for students to participate and
+                  enjoy and some even at the same time.
+                  <br /><br />
+                  Keeping track of all these events is a mess and it’s also a
+                  stress for students to goto each and every counter to register
+                  themselves for the event. It’s also extra work for the
+                  organizers of the event to create physical booths for
+                  registrations.<br /><br />Build an app so that students can
+                  checkout all the events through their smartphone and register
+                  themselves in an instant.
+                </span>
+              </div>
+            </div>
+            <div class="text-content">
+              <div class="description">
+                <span>
+                  <h2 class="sub-heading">Fonts & Colors</h2>
+                  Following a two color scheme, the whole app is designed.
+                </span>
+              </div>
+            </div>
+            <div class="img w-80">
+              <img
+                src="./assets/Event0-modal-content1.png"
+                alt=""
+                class="img w-80 center"
+              />
+            </div>
+            <div class="text-content">
+              <h2 class="sub-heading">Preview</h2>
+            </div>
+            <div class="img w-80">
+              <img
+                src="./assets/Event0-modal-content2.png"
+                alt=""
+                class="img w-80 center"
+              />
+            </div>
+          </div>
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
+        <span
+          class="vertical-line white2"
+          style="height: 175px; margin-top: 30px"
+          ><!--Line--></span
+        >
+      </section>
+      <!-- Work Section Ends -->
+      <!-- About Section Starts -->
+      <section class="about" id="about">
+        <!-- Heading -->
+        <h1 class="heading">About</h1>
+        <span class="vertical-line white3"></span>
+        <div class="container">
+          <div class="image">
+            <img src="./assets/ProfilePic.png" alt="" />
+          </div>
+          <div class="description">
+            My name is Shubhransh Bhaskar & I am a Product Designer as well as a
+            Front-End Developer. I love putting up one of my music playlist and
+            grinding hard until my work is finished. I'm human-centered,
+            interactive, a night owl and a chai-based organism.<br /><br />
+            I do quite a few things in the technological field, currently I am
+            the owner of an eCommerce website Valorant Store India launched back
+            in 2016 where last year we crossed Rs 20 lakh monthly sales.<br /><br />
+            I do a have YouTube channel with 3.5 million views and more than
+            5,000 subscribers where I upload tutorials for Adobe Photoshop,
+            Adobe Xd & some other basic technical stuff.<br /><br />
+            Coming back to the real work that I love to do, I use Figma for most
+            of my design work and few of my projects can be found on my Behance
+            profile, the link for which is given at the bottom of this page. As
+            a front-end developer, my tech stack includes HTML5, CSS, JavaScript
+            and React (Learning Phase).<br /><br />
+            I work hard on my projects and try my level best to explore each &
+            every field which interests me.<br /><br />
+            Also, if by chance you play Valorant, come on & have a game with me
+            :)
+          </div>
+        </div>
+        <span
+          class="vertical-line white4"
+          style="height: 175px; margin-top: 40px"
+        ></span>
+      </section>
+      <!-- About Section Ends -->
+      <!-- Footer and contact section Starts -->
+      <section class="contact" id="contact">
+        <h1 class="heading">Connect with me</h1>
+        <span class="vertical-line white5"></span>
+        <p class="short-info">
+          Enthusiastic designer & developer, always eager to contribute towards
+          team success through hard work, attention to detail with a bunch of
+          other special skills.
+        </p>
+
+        <a href="mailto:hey.iamshubhransh@gmail.com" class="btn">
+          <span>Mail me</span>
+          <div class="wave"></div>
+        </a>
+
+        <footer class="socail-links">
+          <a href="https://www.linkedin.com/in/iamshubhransh/" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://www.behance.net/iamshubhransh" target="_blank"
+            >Behance</a
+          >
+          <a href="https://twitter.com/iamshubhransh" target="_blank"
+            >Twitter</a
+          >
+          <a href="https://www.instagram.com/iamshubhransh/" target="_blank"
+            >Instagram</a
+          >
+          <a href="https://github.com/iamshubhransh" target="_blank">Github</a>
+          <a href="https://medium.com/@iamshubhransh" target="_blank">Medium</a>
+        </footer>
+      </section>
+      <!-- Footer and contact section Ends -->
     </div>
-  </div>
-  </header>
-
-  <!--Work-->
-  <div class="work-content" id="work">
-    <h1 class="work">Work</h1>
-  </div>
-  <div class="main-cont reveal">
-    <div class="card1">
-      <h1>EventO App Design</h1>
-      <p>List & Register in all yours events at a single place.</p>
-      <a target="_blank" href="https://www.behance.net/gallery/131238289/EventO-App-UI-Design-Event-List-App"><img src="/evento.png" alt=""></a>
-    </div>
-    <div class="card2">
-      <h1>Splitwise Dark Mode UI Design</h1>
-      <p>Dark Mode UI Design for the app &mdash; Splitwise.</p>
-      <a target="_blank" href="https://www.behance.net/gallery/128536863/Splitwise-Dark-Mode-UI-Design"><img src="/split.png" alt=""></a>
-    </div>
-    <div class="card3">
-      <h1>JSS Photography Club Web Design</h1>
-      <p>Website design for the Photography Club of JSSATEN, Noida.</p>
-      <a target="_blank" href="https://www.behance.net/gallery/129670805/JSS-Photography-Club-Web-UI-Design"><img src="/photo.png" alt=""></a>
-    </div>
-    <div class="card4">
-      <h1>Stellar Crypto Wallet UI Design</h1>
-      <p>Crypto wallet app UI design.</p>
-      <a target="_blank" href="https://www.behance.net/gallery/121054893/Crypto-Wallet-UI-Design"><img src="/crypto.png" alt=""></a>
-    </div>
-  </div>
-
-  <!--About-->
-  <div class="about-content" id="about">
-    <h1 class="about">About</h1>
-  </div>
-  <div class="main-cont2 reveal">
-    <div class="namaste">
-      <h1>नमस्ते</h1>
-    </div>
-    <div class="info">
-      <p>My name is Shubhransh Bhaskar & I am a Product Designer as well as a Front-End Developer. I love putting up one of my music playlist and grinding hard until my work is finished. I'm human-centered, interactive, a night owl and a chai-based organism. 
-      </br>
-    </br>
-        I do quite a few things in the technological field, currently I am the owner of an eCommerce website Valorant Store India launched back in 2016 where last year we crossed Rs 20 lakh monthly sales.
-      </br>
-    </br>
-    I do a have YouTube channel with 3.5 million views and more than 5,000 subscribers where I upload tutorials for Adobe Photoshop, Adobe Xd & some other basic technical stuff.
-  </br>
-</br>
-    Coming back to the real work that I love to do, I use Figma for most of my design work and few of my projects can be found on my Behance profile, the link for which is given at the top of this page. As a front-end developer, my tech stack includes HTML5, CSS, JavaScript and React (Learning Phase).
-    I work hard on my projects and try my level best to explore each & every field which interests me.
-  </br>
-</br>
-    Also, if by chance you play Valorant, come on & have a game with me :)
-    
-      </p>
-
-    </div>
-  </div>
-
-  <!--Contact Me-->
-  <div class="contact-content" id="contact">
-    <h1 class="contact">Contact</h1>
-  </div>
-  <div class="main-cont3 reveal">
-    <div class="title">
-      <h1 class="title-email">Email</h1>
-    </br>
-      <h1 class="title-mobile">Mobile</h1>
-    </div>
-    <div class="detail">
-      <a class="email-detail" href="mailto:hey.iamshubhransh@gmail.com">hey.iamshubhransh@gmail.com</a>
-    </br>
-  </br>
-      <p>+91-8979588254</p>
-    </div>
-  </div>
-
-  <!--Footer-->
-  <footer class="footer">
-    <p>Designed & Developed by <span class="footer-bold">iamshubhransh</span>❤️</p>
-  </br>
-  </footer>
-</div>
-</section>
-
-  <script type="text/javascript">
-    window.addEventListener('scroll', reveal);
-
-    function reveal(){
-      var reveals = document.querySelectorAll('.reveal');
-
-      for (var i=0; i < reveals.length; i++){
-
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 80;
-
-        if(revealtop < windowheight - revealpoint){
-          reveals[i].classList.add('active');
-        }
-      }
-    }
-  </script>
-
-
-<script>
-  // distort scroll
-  const body = document.body,
-      scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
-      height = scrollWrap.getBoundingClientRect().height - '100px',
-      speed = 0.08;
-
-  var offset = 0;
-
-  body.style.height = Math.floor(height) + "px";
-
-  function smoothScroll() {
-      offset += (window.pageYOffset - offset) * speed;
-
-      var scroll = "translateY(-" + offset + "px) translateZ(0)";
-      scrollWrap.style.transform = scroll;
-
-      callScroll = requestAnimationFrame(smoothScroll);
-  }
-
-  smoothScroll();
-  const content = document.querySelector("section");
-  let currentPos = window.pageYOffset;
-
-  const callDistort = function () {
-      const newPos = window.pageYOffset;
-      const diff = newPos - currentPos;
-      const speed = diff * 0.2;
-
-      content.style.transform = "skewY(" + speed + "deg)";
-      currentPos = newPos;
-      requestAnimationFrame(callDistort);
-  };
-
-  callDistort();
-</script>
-</body>
+    <!-- Javascript File -->
+    <script src="main.js"></script>
+  </body>
 </html>
